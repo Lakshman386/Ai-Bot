@@ -1,4 +1,1 @@
-pip install --upgrade pip
-pip install matplotlib
-pip install google-generativeai
-pip install streamlit
+streamlit
