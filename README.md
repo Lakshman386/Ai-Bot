@@ -1,22 +1,3 @@
-git clone https://github.com/Lakshman386/Ai-Bot.git
-cd ~/DSA-StudyBot
-
-# Create the virtual environment (correct this time)
-python3 -m venv SLN
-
-# Activate it
-source SLN/bin/activate
-
-# Upgrade pip and install everything
-pip install --upgrade pip
-pip install -r requirements.txt
-pip install matplotlib
-pip install google-generativeai
-pip install streamlit
-
-# Run the app
-streamlit run main.py
-
 # 🚀 Streamlit App
 
 A simple and interactive web application built with [Streamlit](https://streamlit.io/). This app leverages Python's power and an intuitive UI for data exploration, ML models, or anything you imagine.
@@ -52,7 +33,11 @@ source SLN/bin/activate
 ### 3. Install Dependencies
 
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
+pip install matplotlib
+pip install google-generativeai
+pip install streamlit
 ```
 
 ---
